@@ -10,7 +10,9 @@ export default function Home() {
         <link rel="icon" href="/flor.ico" />
       </Head>
       <div className={styles.header}>
-        <Image src="/flor.png" width={100} height={100}></Image>
+        <div className={styles.brandImage}>
+          <Image src="/flor.png" width={100} height={100}></Image>
+        </div>
         <div className={styles.brand}>
           <div className={styles.brandName}>Cores da Iris</div>
           <div className={styles.brandText}>Arte e Vida Natural</div>

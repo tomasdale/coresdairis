@@ -21,13 +21,17 @@
   background-position: right bottom;
 }
 
+.brandImage {
+  width: 6rem;
+}
+
 .brand {
   text-align: center;
-  margin: 40px;
+  margin: 3rem;
 }
 
 .brandName {
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: 700;
   color: #000000;
   background: -webkit-linear-gradient(left,#F60000, #FF8C00, #FFEE00, #4DE94C, #3783FF, #4815AA);
@@ -37,7 +41,7 @@
 }
 
 .brandText {
-  font-size: 26px;
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -157,5 +161,4 @@
     width: 100%;
     flex-direction: column;
   }
-
 }
