@@ -7,13 +7,39 @@
   align-items: center;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background: #0070f3;
+  background-image: url('../public/vale.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(255,255,255,1)), url('../public/vale.jpg');
+  background-position: right bottom;
+}
+
+.brand {
+  margin: 40px;
+}
+
+.brandName {
+  font-size: 30px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(left, green, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brandText {
+  font-size: 20px;
+}
+
 .main {
   padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   max-width: 1080px;
 }
 
@@ -22,7 +48,7 @@
   height: 100px;
   border-top: 1px solid #eaeaea;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -32,7 +58,7 @@
 
 .footer a {
   display: flex;
-  justify-content: center;
+  justify-content: ;
   align-items: center;
 }
 
@@ -121,4 +147,5 @@
     width: 100%;
     flex-direction: column;
   }
+
 }

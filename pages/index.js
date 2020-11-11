@@ -9,23 +9,27 @@ export default function Home() {
         <title>Cores da Iris</title>
         <link rel="icon" href="/flor.ico" />
       </Head>
-      <Image src="/vale.jpg" layout="intrinsic" width={4000} height={286}></Image>
+      <div className={styles.header}>
+        <Image src="/flor.png" width={100} height={100}></Image>
+        <div className={styles.brand}>
+          <div className={styles.brandName}>Cores da Iris</div>
+          <div className={styles.brandText}>Arte e Vida Natural</div>
+        </div>
+      </div>
+      
       <main className={styles.main}>
-        
-        <h1 className={styles.title}>
-         
-        </h1>
-
-        <p className={styles.description}>
-        </p>
+     
 
         <div className={styles.grid}>
-          <div className={styles.card}></div>
+          <div className={styles.card}>Massagem</div>
+          <div className={styles.card}>Passeios</div>
+          <div className={styles.card}>Produtos</div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        Created By Tomas D'Alessandro
+        <div>Contato: </div>
+        <div>Created By: Tomas D'Alessandro</div>
       </footer>
     </div>
   )
