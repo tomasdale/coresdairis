@@ -26,7 +26,7 @@
 .brandName {
   font-size: 30px;
   font-weight: 700;
-  background: -webkit-linear-gradient(left, green, purple);
+  background: -webkit-linear-gradient(left,#F60000, #FF8C00, #FFEE00, #4DE94C, #3783FF, #4815AA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
