@@ -16,15 +16,38 @@ export default function Home() {
           <div className={styles.brandText}>Arte e Vida Natural</div>
         </div>
       </div>
-      
-      <main className={styles.main}>
-     
 
-        <div className={styles.grid}>
-          <div className={styles.card}>Massagem</div>
-          <div className={styles.card}>Passeios</div>
-          <div className={styles.card}>Produtos</div>
+      <main className={styles.main}>
+
+
+        <div className={styles.section}>
+          <div className={styles.sectionText}>
+            <div className={styles.sectionHeader}>Massagem</div>
+            <div className={styles.sectionBody}>Resumo</div>
+          </div>
+          <div className={styles.sectionImage}>
+            <Image src="/sala.jpg" alt="Sala de Massagem" width={1666} height={937}></Image>
+          </div>
         </div>
+        <div className={styles.section}>
+          <div className={styles.sectionImage}>
+            <Image src="/trekking.jpg" alt="Trekking" width={1174} height={720}></Image>
+          </div>
+          <div className={styles.sectionText}>
+            <div className={styles.sectionHeader}>Trekking</div>
+            <div className={styles.sectionBody}>Resumo</div></div>
+        </div>
+        <div className={styles.section}>
+          <div className={styles.sectionText}>
+            <div className={styles.sectionHeader}>Produtos Naturais</div>
+            <div className={styles.sectionBody}>Resumo</div>
+          </div>
+          <div className={styles.sectionImage}>
+          <Image src="/produtos.jpg" alt="Produtos" width={1920} height={1280}></Image>
+          </div>
+        </div>
+
+
       </main>
 
       <footer className={styles.footer}>
