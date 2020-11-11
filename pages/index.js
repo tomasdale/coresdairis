@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Cores da Iris</title>
+        <link rel="icon" href="/flor.ico" />
       </Head>
 
       <main className={styles.main}>
