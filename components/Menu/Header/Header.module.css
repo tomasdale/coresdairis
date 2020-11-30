@@ -1,0 +1,36 @@
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background: #DDEDE8;
+    background-image: url('../../../public/vale.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0), #DDEDE8), url('../../../public/vale.jpg');
+    background-position: right bottom;
+  }
+  
+  .brandImage {
+    width: 6rem;
+  }
+  
+  .brand {
+    text-align: center;
+    margin: 3rem;
+  }
+  
+  .brandName {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    background: -webkit-linear-gradient(left,#F60000, #FF8C00, #FFEE00, #4DE94C, #3783FF, #4815AA);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .brandText {
+    font-size: 2rem;
+    font-weight: 400;
+  }

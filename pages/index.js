@@ -1,32 +1,25 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from './Home.module.css'
 import Image from 'next/image'
+import Menu from '../components/Menu/Menu'
+import Footer from '../components/Footer/Footer'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Cores da Iris</title>
         <link rel="icon" href="/flor.ico" />
       </Head>
-      <div className={styles.header}>
-        <div className={styles.brandImage}>
-          <Image src="/flor.png" width={100} height={100}></Image>
-        </div>
-        <div className={styles.brand}>
-          <div className={styles.brandName}>Cores da Iris</div>
-          <div className={styles.brandText}>Arte e Vida Natural</div>
-        </div>
-      </div>
+
+      <Menu></Menu>
 
       <main className={styles.main}>
-
-
         <div className={styles.section}>
-          <div className={styles.sectionText}>
-            <div className={styles.sectionHeader}>Massagem</div>
-            <div className={styles.sectionBody}>Resumo</div>
-          </div>
+            <div className={styles.sectionText}>
+              <div className={styles.sectionHeader}>Massagem</div>
+              <div className={styles.sectionBody}>Resumo</div>
+            </div>
           <div className={styles.sectionImage}>
             <Image src="/sala.jpg" alt="Sala de Massagem" width={1666} height={937}></Image>
           </div>
@@ -45,17 +38,12 @@ export default function Home() {
             <div className={styles.sectionBody}>Resumo</div>
           </div>
           <div className={styles.sectionImage}>
-          <Image src="/produtos.jpg" alt="Produtos" width={1920} height={1280}></Image>
+            <Image src="/produtos.jpg" alt="Produtos" width={1920} height={1280}></Image>
           </div>
         </div>
-
-
       </main>
 
-      <footer className={styles.footer}>
-        <div>Contato: </div>
-        <div>Created By: Tomas D'Alessandro</div>
-      </footer>
+      <Footer></Footer>
     </div>
   )
 }
