@@ -4,13 +4,13 @@
     height: 9vh;
     justify-content: center;
     align-items: center;
-    background-color: crimson;
+    background-color: darkgreen;
     color: white;
-    border: 1px solid lightcoral;
+    border: 1px solid lightgreen;
     font-size: 2rem;
 }
 
 .default:hover {
     cursor: pointer;
-    background-color: rgb(238, 77, 77);
+    background-color: #037e03d7;
 }

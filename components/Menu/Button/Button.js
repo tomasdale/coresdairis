@@ -9,10 +9,10 @@ function Button(props) {
         type = styles.default;
     }
     return (
-        <Link href={props.path}>
-            <div className={type}>
+        <Link href={props.path} passHref>
+            <a className={type}>
                 {props.text}
-            </div>
+            </a>
         </Link>
     )
 }
