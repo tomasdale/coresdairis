@@ -1,1 +1,1 @@
-https://coresdairis.vercel.app/
+https://coresdairis.com.br/
